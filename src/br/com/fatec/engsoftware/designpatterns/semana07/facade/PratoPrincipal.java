@@ -18,6 +18,6 @@ public class PratoPrincipal {
     }
 
     public void removerItens(List<Item> itens) {
-        this.itens = itens;
+        this.itens.remove(itens);
     }
 }
