@@ -6,7 +6,7 @@ public class Dividir implements ICalcular {
         try {
             return a/b;
         }catch (Exception e){
-            System.err.println("Erro, divisão não possível!");
+            System.err.print("Erro, divisão não possível! ");
             return 0;
         }
     }
