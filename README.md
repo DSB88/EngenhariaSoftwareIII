@@ -18,7 +18,7 @@ Os autores do livro “Design Patterns: Elements of Reusable Object-Oriented Sof
 Creational Design Patterns
 🛠<a href="https://github.com/DSB88/EngenhariaSoftwareIII/tree/master/src/br/com/fatec/engsoftware/designpatterns/semana06/singleton">  <B> -Singleton </B> </a> </details>
 
-Definição: O padrão Singleton permite criar objetos únicos para os quais há apenas uma instância. Este padrão oferece um ponto de acesso global, assim como uma variável global, porém sem as desvantagens das variáveis globais
+Definição: O padrão Singleton permite criar objetos únicos para os quais há apenas uma instância. Este padrão oferece um ponto de acesso global, assim como uma variável global, porém sem as desvantagens das variáveis globais.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Structural Design Patterns
