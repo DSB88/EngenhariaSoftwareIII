@@ -49,12 +49,12 @@ public class Disciplina {
     }
 
     public float getResultado(ICalcMedia iCalcMedia) {
-        media = iCalcMedia.CalculaMedia(p1, p2);
+        this.media = iCalcMedia.CalculaMedia(p1, p2);
         return iCalcMedia.CalculaMedia(p1, p2);
     }
 
     public void getSituacao(IMudaSituacao iMudaSituacao) {
-        iMudaSituacao.MudaSituacao(media);
+        iMudaSituacao.MudaSituacao(getMedia());
     }
 }
 
