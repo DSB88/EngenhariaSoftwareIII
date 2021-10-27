@@ -1,7 +1,5 @@
 package br.com.fatec.engsoftware.designpatterns.semana07.facade;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -12,12 +10,10 @@ public class Main {
         System.out.println("\nDigite o código da sua escolha: ");
         int comida = sc.nextInt();
         int sobremesa = sc.nextInt();
-        int bebibda = sc.nextInt();
+        int bebida = sc.nextInt();
 
-        cmb.criacaoCombo(comida, sobremesa, bebibda);
+        cmb.criacaoCombo(comida, sobremesa, bebida);
      //Código teste//cmb.criacaoCombo(2, 4, 8);
-
-
 
         sc.close();
 
