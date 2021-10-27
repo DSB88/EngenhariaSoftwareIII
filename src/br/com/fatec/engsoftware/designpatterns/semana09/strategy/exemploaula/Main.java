@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("----------------------");
-        System.out.println("Design Patter Strategy");
+        System.out.println("Design Pattern Strategy");
         System.out.println("----------------------");
         Disciplina matematica = new Disciplina(7,8);
 
